@@ -1,16 +1,28 @@
 # music_player
 
-A new Flutter project.
+App for playing music.
+
+## Preview
+
+https://user-images.githubusercontent.com/43897292/156792255-c364aa5e-8b23-447c-8bf5-622c3593efee.mp4
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Supported Device
 
-A few resources to get you started if this is your first Flutter project:
+POCO F3 (Tested)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Supported Features
+1. Search Music
+2. Play and Pause Music
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Requirements
+1. Using Dart SDK version >=2.12.0
+2. Using Flutter SDK version >= 2.5.2
+3. Android SDK Version >= 16
+
+### How to build this app
+1. Clone this project
+2. execute `flutter pub get`
+3. for running the app, execute `flutter run`
+4. for building the app, execute `flutter build apk` or `flutter build appbundle` (need codesigning)
